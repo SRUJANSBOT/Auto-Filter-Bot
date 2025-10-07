@@ -80,7 +80,7 @@
 ## Deploy
 <details><summary>Deploy To Heroku</summary>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/SRUJANSBOT/Auto-Filter-Bot)
 
 </details>
 
