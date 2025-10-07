@@ -119,14 +119,14 @@ SPELL_CHECK = is_enabled("SPELL_CHECK", True)
 SHORTLINK = is_enabled('SHORTLINK', False)
 
 # for stream
-IS_STREAM = is_enabled('IS_STREAM', True)
-BIN_CHANNEL = environ.get("BIN_CHANNEL", "t.me/MovieNationNet")
+IS_STREAM = is_enabled('IS_STREAM', False)
+BIN_CHANNEL = environ.get("BIN_CHANNEL", "https://t.me/MovieNationNet")
 if len(BIN_CHANNEL) == 0:
     logger.error('BIN_CHANNEL is missing, exiting now')
     exit()
 else:
     BIN_CHANNEL = int(BIN_CHANNEL)
-URL = environ.get("URL", "t.me/MovieNationNet")
+URL = environ.get("URL", "https://t.me/MovieNationNet")
 if len(URL) == 0:
     logger.error('URL is missing, exiting now')
     exit()
